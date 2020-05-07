@@ -1,0 +1,116 @@
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ * 
+ */
+
+/*# sourceMappingURL=custom.css.map */
+
+/*
+ * Force Bootstrap v4 transitions
+ * (ignores prefers-reduced-motion media feature)
+ * https://gist.github.com/robssanches/33c6c1bf4dd5cf3c259009775883d1c0
+ */
+
+.fade {
+	transition:opacity 0.01s linear !important;
+}
+.collapsing {
+	transition:height 0.35s ease !important;
+}
+.custom-switch .custom-control-label::after {
+	transition:background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,-webkit-transform 0.15s ease-in-out !important;
+	transition:transform 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out !important;
+	transition:transform 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,-webkit-transform 0.15s ease-in-out !important;
+}
+.custom-range::-webkit-slider-thumb {
+	transition:background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out !important;
+}
+.custom-range::-moz-range-thumb {
+	transition:background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out !important;
+}
+.custom-range::-ms-thumb {
+	transition:background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out !important;
+}
+.custom-control-label::before,.custom-file-label,.custom-select {
+	transition:background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out !important;
+}
+.badge {
+	transition:color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out !important;
+}
+.progress-bar {
+	transition:width 0.6s ease !important;
+}
+.progress-bar-animated {
+	-webkit-animation:progress-bar-stripes 1s linear infinite !important;
+	animation:progress-bar-stripes 1s linear infinite !important;
+}
+.modal.fade .modal-dialog {
+	transition:-webkit-transform 0.3s ease-out !important;
+	transition:transform 0.3s ease-out !important;
+	transition:transform 0.3s ease-out,-webkit-transform 0.3s ease-out !important;
+}
+.carousel-item {
+	transition:-webkit-transform 0.6s ease-in-out !important;
+	transition:transform 0.6s ease-in-out !important;
+	transition:transform 0.6s ease-in-out,-webkit-transform 0.6s ease-in-out !important;
+}
+.carousel-fade .carousel-item {
+    transition-property: opacity !important;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+    transition: 0s 0.6s opacity !important;
+}
+
+.carousel-control-prev,.carousel-control-next {
+	transition:opacity 0.15s ease !important;
+}
+.carousel-indicators li {
+	transition:opacity 0.6s ease !important;
+}
+.form-control {
+	transition:border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out !important;
+}
+.btn {
+	transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out !important;
+}
+
+.fa-xs {
+  font-size: .75em !important; 	
+}	
+.fa-sm {
+  font-size: .875em !important; 	
+}	
+.fa-lg {
+  font-size: 1.33em !important; 
+}	
+.fa-2x {
+  font-size: 2em !important; 	
+}	
+.fa-3x {
+  font-size: 3em !important; 	
+}	
+.fa-4x {
+  font-size: 4em !important; 	
+}	
+.fa-5x {
+  font-size: 5em !important; 	
+}	
+.fa-6x {
+  font-size: 6em !important; 	
+}	
+.fa-7x {
+  font-size: 7em !important; 	
+}	
+.fa-8x {
+  font-size: 8em !important; 	
+}	
+.fa-9x {
+  font-size: 9em !important; 	
+}	
+.fa-10x	{
+  font-size: 10em !important;
+}
